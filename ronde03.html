@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>De Qorona Quiz 2020</title>
+    <title>De Qorona Quiz 2020</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link rel="stylesheet" href="styles.css" />
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif;
+    }
+
+    .w3-sidebar {
+        z-index: 3;
+        width: 150px;
+        top: 43px;
+        bottom: 0;
+        height: inherit;
+    }
+</style>
 
 <body>
     <!-- Navbar -->
@@ -26,9 +46,9 @@
             <i class="fa fa-remove"></i>
         </a>
         <h4 class="w3-bar-item"><b>Vragenronden</b></h4>
-        <a class="w3-bar-item w3-button w3-hover-black" href="ronde01.html">Ronde 1</a>
-        <a class="w3-bar-item w3-button w3-hover-black" href="ronde02.html">Ronde 2</a>
-        <a class="w3-bar-item w3-button w3-hover-black" href="ronde03.html">Ronde 3</a>
+        <a class="w3-bar-item w3-button w3-hover-black" style="color: #999999;" href="ronde01.html">Ronde 1</a>
+        <a class="w3-bar-item w3-button w3-hover-black" style="color: #999999;" href="ronde02.html">Ronde 2</a>
+        <a class="w3-bar-item w3-button w3-hover-black current" style="color: green; font-weight: bold;"  href="ronde03.html">Ronde 3</a>
         <a class="w3-bar-item w3-button w3-hover-black" href="ronde04.html">Ronde 4</a>
         <a class="w3-bar-item w3-button w3-hover-black" href="ronde05.html">Ronde 5</a>
         <a class="w3-bar-item w3-button w3-hover-black" href="ronde06.html">Ronde 6</a>
@@ -45,54 +65,10 @@
     <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
     <div class="w3-main" style="margin-left: 250px">
         <div class="w3-row w3-padding-64">
-            <div class=" w3-container">
-                <h1 class="w3-text-teal">Introductie en help</h1>
-                <h2>Start de online vergadering</h2>
-                <p>
-                  <ul>
-                    <li>Als alles goed is, ben je op deze pagina beland.</li>
-                    <li>Open een tweede browserblad: <a href="https://meet.jit.si/QoronaQuiz2020" target="_blank">Klik op deze link</a></li>
-                    <li>Sleep dit nieuwe tabblad los, zodanig dat er twee losstaande vensters zijn.</li>
-                    <li>dmv WINDOWS-toets + pijltje-rechts, positioneer je het scherm met deze website aan de rechterkant.</li>
-                    <li>Kies vervolgens het andere scherm met de vergadering om links te positioneren.</li>
-                  </ul>
-                </p>
-                <p>&nbsp;</p>
-                <h2>Online vergadering - instellen&nbsp;</h2>
-                <table id="helptable" width="100%">
-                  <tbody>
-                    <th width="50%">Uitleg</th>
-                    <th width="50%">Voorbeeld</th>
-                    <tr style="outline: thin solid">
-                      <td>
-                        Microfoon toestaan<br />
-                        (bovenaan, links)
-                      </td>
-                      <td><img src="img/jitsi-01.png" alt="" /></td>
-                    </tr>
-                    <tr style="outline: thin solid">
-                      <td>
-                        <p>
-                          Geef in het witte veld jouw STRAATNAAM in. (ps: in het
-                          voorbeeld staat "Toon-hans").
-                        </p>
-                        <p>&nbsp;</p>
-                        <p>
-                          Het zou superleuk zijn als je ook je webcam aanzet door op
-                          het camera-icoon te klikken.
-                        </p>
-                        <p>&nbsp;</p>
-                        <p>De micro en camera kan je ook tijdens de vergadering nog aan/uit zetten.</p>
-                        <p>&nbsp; &nbsp; &nbsp;</p>
-                      </td>
-                      <td>
-                        <img src="img/jitsi-02.png" width="476" height="540" alt="" />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <p></p>
-              </div>
+            <div class="w3-twothird w3-container">
+                <!--<h1 class="w3-text-teal">Heading</h1> -->
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwPD4zxObYbVxqfF-fn2nhMoXn3Yzzz3xRPe0iOuMkmWserg/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
 
         <!-- END MAIN -->
